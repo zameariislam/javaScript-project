@@ -6,6 +6,8 @@ let arr = Array.from(tags)
 
 
 searchBox.addEventListener('keyup', function (e) {
+
+
     let searchElement = e.target.value;
     for (let i = 0; i < arr.length; i++) {
 
